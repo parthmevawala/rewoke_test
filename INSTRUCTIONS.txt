@@ -1,0 +1,20 @@
+The following are the prerequisites for running the applications.
+
+1. Empty/dummy "POSTGRESQL" database will be needed. (Can be in local or online, doesn't matter.)
+2. Postman desktop application.
+
+Instructions to run the application.
+
+1. Download the rewoke_test.zip file and extract it within an "empty" folder with name "rewoke_test".
+2. Open cmd and type "npm i".
+3. Edit ".env" file provided in the root folder and change the database data which you have.
+4. Finally it is ready to be run. Entry point is "index.js".
+
+Instructions for testing the application.
+
+1. Open your postman app.
+2. Download "Rewoke Test.postman_collection.json" file from the repository.
+3. Import it within the postman collection.
+4. IMPORTANT! You will also need to set the environment for the collection.
+5. Set the environment variables in postman as shown in "environment.png".
+6. Save and select the environment, your collectiobn is ready.
